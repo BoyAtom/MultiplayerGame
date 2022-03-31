@@ -16,10 +16,8 @@ ScriptsOnlyBuild:
     - Photon.Pun.ServerSettings
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
-    - UnityEditor.U2D.Animation.SkinningCachePersistentState
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridBrushEditor
@@ -121,11 +119,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3574}
     - Class: 114
-      Script: {instanceID: 5458}
+      Script: {instanceID: 4028}
     - Class: 114
-      Script: {instanceID: 5764}
+      Script: {instanceID: 5460}
     - Class: 114
-      Script: {instanceID: 30750}
+      Script: {instanceID: 5766}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -208,13 +206,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3574}
     - Class: 114
-      Script: {instanceID: 4250}
+      Script: {instanceID: 4252}
     - Class: 114
-      Script: {instanceID: 5458}
+      Script: {instanceID: 5460}
     - Class: 114
-      Script: {instanceID: 5626}
+      Script: {instanceID: 5628}
     - Class: 114
-      Script: {instanceID: 5764}
+      Script: {instanceID: 5766}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -715,6 +713,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HideColliders
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
@@ -1090,12 +1094,6 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
     className: PhotonTeamsManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HideColliders
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
