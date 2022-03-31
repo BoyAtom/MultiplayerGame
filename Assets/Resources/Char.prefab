@@ -222,7 +222,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2610990104185629811}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.058, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7942445394050467422}
@@ -281,7 +281,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &2610990104185629812
 Animator:
   serializedVersion: 3
@@ -425,7 +425,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.1, y: -0.285}
+  m_Offset: {x: -0.1, y: -0.3}
   serializedVersion: 2
   m_Radius: 0.075
 --- !u!58 &2822606690683667571
@@ -441,7 +441,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.1, y: -0.285}
+  m_Offset: {x: 0.1, y: -0.3}
   serializedVersion: 2
   m_Radius: 0.075
 --- !u!61 &5402285475551422192
@@ -457,7 +457,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.285}
+  m_Offset: {x: 0, y: -0.3}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5476,7 +5476,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.62}
+  m_AnchoredPosition: {x: 0, y: 0.6}
   m_SizeDelta: {x: 1, y: 0.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &2249393421080063270

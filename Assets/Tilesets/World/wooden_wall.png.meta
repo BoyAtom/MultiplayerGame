@@ -151,7 +151,7 @@ TextureImporter:
       name: wooden_wall_1
       rect:
         serializedVersion: 2
-        x: 212
+        x: 213
         y: 4
         width: 201
         height: 581
@@ -172,8 +172,8 @@ TextureImporter:
       name: wooden_wall_2
       rect:
         serializedVersion: 2
-        x: 423
-        y: 2
+        x: 422
+        y: 4
         width: 201
         height: 581
       alignment: 9

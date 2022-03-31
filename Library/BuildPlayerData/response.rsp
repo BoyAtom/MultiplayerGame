@@ -1,5 +1,6 @@
 -a="C:\Users\kasat\MMO\Library\PlayerScriptAssemblies\Assembly-CSharp.dll"
 -a="C:\Users\kasat\MMO\Library\PlayerScriptAssemblies\PhotonChat.dll"
+-a="C:\Users\kasat\MMO\Library\PlayerScriptAssemblies\Unity.2D.Tilemap.Extras.dll"
 -a="C:\Users\kasat\MMO\Library\PlayerScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll"
 -a="C:\Users\kasat\MMO\Library\PlayerScriptAssemblies\Unity.2D.PixelPerfect.dll"
 -a="C:\Users\kasat\MMO\Library\PlayerScriptAssemblies\UnityEngine.TestRunner.dll"

@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\LobbyManager.cs" />
      <Compile Include="Assets\Scripts\ShowHideData.cs" />
+     <Compile Include="Assets\Scripts\HideColliders.cs" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
      <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
      <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
@@ -633,6 +634,10 @@
       <Project>{4dd029e6-677a-44f1-38a8-a30825b1b3c8}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
+      <Project>{bf594848-27f4-1c70-a819-5960b11cb855}</Project>
+      <Name>Unity.2D.Tilemap.Extras</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
       <Project>{c8639517-a767-e7a8-1077-eb3e7e731595}</Project>
       <Name>Unity.2D.Animation.Editor</Name>
@@ -720,6 +725,10 @@
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
       <Project>{678a1c02-27db-f6bc-42ab-a6a37cf6a2c9}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
+      <Project>{625542d2-c2b9-39e4-91b7-b182f694a807}</Project>
+      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{1aa8b2e0-48f2-d704-15b4-117347041f5e}</Project>
