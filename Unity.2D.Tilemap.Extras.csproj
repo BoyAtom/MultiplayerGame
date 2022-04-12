@@ -36,18 +36,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Runtime\Tiles\AnimatedTile\AnimatedTile.cs" />
-     <Compile Include="Assets\Runtime\Tiles\WeightedRandomTile\WeightedRandomTile.cs" />
+     <Compile Include="Assets\Runtime\Tiles\RandomTile\RandomTile.cs" />
      <Compile Include="Assets\Runtime\GridInformation\GridInformation.cs" />
      <Compile Include="Assets\Runtime\Tiles\TerrainTile\TerrainTile.cs" />
-     <Compile Include="Assets\Runtime\Tiles\RuleTile\RuleTile.cs" />
-     <Compile Include="Assets\Runtime\Brushes\TintTextureGenerator.cs" />
      <Compile Include="Assets\Runtime\Tiles\PipelineTile\PipelineTile.cs" />
-     <Compile Include="Assets\Runtime\Tiles\RuleOverrideTile\AdvancedRuleOverrideTile.cs" />
-     <Compile Include="Assets\Runtime\Tiles\HexagonalRuleTile\HexagonalRuleTile.cs" />
-     <Compile Include="Assets\Runtime\Tiles\IsometricRuleTile\IsometricRuleTile.cs" />
+     <Compile Include="Assets\Runtime\Brushes\TintTextureGenerator.cs" />
      <Compile Include="Assets\Runtime\Tiles\RuleOverrideTile\RuleOverrideTile.cs" />
-     <Compile Include="Assets\Runtime\Tiles\RandomTile\RandomTile.cs" />
+     <Compile Include="Assets\Runtime\Tiles\IsometricRuleTile\IsometricRuleTile.cs" />
+     <Compile Include="Assets\Runtime\Tiles\HexagonalRuleTile\HexagonalRuleTile.cs" />
+     <Compile Include="Assets\Runtime\Tiles\RuleTile\RuleTile.cs" />
+     <Compile Include="Assets\Runtime\Tiles\RuleOverrideTile\AdvancedRuleOverrideTile.cs" />
+     <Compile Include="Assets\Runtime\Tiles\AnimatedTile\AnimatedTile.cs" />
+     <Compile Include="Assets\Runtime\Tiles\WeightedRandomTile\WeightedRandomTile.cs" />
      <None Include="Assets\Runtime\Unity.2D.Tilemap.Extras.asmdef" />
      <None Include="Assets\Runtime\Brushes\TintedTilemap.shader" />
     <Reference Include="UnityEngine">
@@ -652,13 +652,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{25460f59-7bcf-7ef7-35f9-51f715d78ca3}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{0a13e7b2-04a5-58b8-c06b-b2fd202a1a28}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{25460f59-7bcf-7ef7-35f9-51f715d78ca3}</Project>
+      <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

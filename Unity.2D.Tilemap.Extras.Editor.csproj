@@ -37,27 +37,27 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\Brushes\CoordinateBrush\CoordinateBrush.cs" />
-     <Compile Include="Assets\Editor\Tiles\RuleOverrideTile\PopulateRuleOverrideTileWizard.cs" />
-     <Compile Include="Assets\Editor\Brushes\PrefabBrushes\PrefabRandomBrush\PrefabRandomBrush.cs" />
-     <Compile Include="Assets\Editor\Brushes\PrefabBrushes\BasePrefabBrush.cs" />
-     <Compile Include="Assets\Editor\Brushes\RandomBrush\RandomBrush.cs" />
-     <Compile Include="Assets\Editor\Brushes\GameObjectBrush\GameObjectBrush.cs" />
-     <Compile Include="Assets\Editor\Brushes\GroupBrush\GroupBrush.cs" />
-     <Compile Include="Assets\Editor\Menu\CustomRuleTileMenu.cs" />
-     <Compile Include="Assets\Editor\Brushes\TintBrushSmooth\TintTextureGeneratorEditor.cs" />
-     <Compile Include="Assets\Editor\Brushes\TintBrushSmooth\TintBrushSmooth.cs" />
-     <Compile Include="Assets\Editor\Tiles\RuleTile\RuleTileEditor.cs" />
-     <Compile Include="Assets\Editor\Tiles\HexagonalRuleTile\HexagonalRuleTileEditor.cs" />
-     <Compile Include="Assets\Editor\Brushes\PrefabBrushes\PrefabBrush\PrefabBrush.cs" />
-     <Compile Include="Assets\Editor\Tiles\RuleOverrideTile\RuleOverrideTileEditor.cs" />
-     <Compile Include="Assets\Editor\Menu\MenuItemOrder.cs" />
-     <Compile Include="Assets\Editor\Brushes\PrefabBrushes\BrushMenuItem.cs" />
-     <Compile Include="Assets\Editor\Brushes\TintBrush\TintBrush.cs" />
-     <Compile Include="Assets\Editor\Tiles\RuleOverrideTile\AdvancedRuleOverrideTileEditor.cs" />
-     <Compile Include="Assets\Editor\Tiles\Menu\TerrainTileMenu.cs" />
-     <Compile Include="Assets\Editor\Brushes\LineBrush\LineBrush.cs" />
-     <Compile Include="Assets\Editor\Tiles\Menu\RandomTileMenu.cs" />
      <Compile Include="Assets\Editor\Tiles\Menu\PipelineTileMenu.cs" />
+     <Compile Include="Assets\Editor\Menu\CustomRuleTileMenu.cs" />
+     <Compile Include="Assets\Editor\Tiles\RuleTile\RuleTileEditor.cs" />
+     <Compile Include="Assets\Editor\Brushes\PrefabBrushes\PrefabRandomBrush\PrefabRandomBrush.cs" />
+     <Compile Include="Assets\Editor\Brushes\GameObjectBrush\GameObjectBrush.cs" />
+     <Compile Include="Assets\Editor\Brushes\PrefabBrushes\PrefabBrush\PrefabBrush.cs" />
+     <Compile Include="Assets\Editor\Brushes\RandomBrush\RandomBrush.cs" />
+     <Compile Include="Assets\Editor\Tiles\RuleOverrideTile\PopulateRuleOverrideTileWizard.cs" />
+     <Compile Include="Assets\Editor\Tiles\RuleOverrideTile\RuleOverrideTileEditor.cs" />
+     <Compile Include="Assets\Editor\Brushes\PrefabBrushes\BrushMenuItem.cs" />
+     <Compile Include="Assets\Editor\Tiles\Menu\TerrainTileMenu.cs" />
+     <Compile Include="Assets\Editor\Brushes\GroupBrush\GroupBrush.cs" />
+     <Compile Include="Assets\Editor\Brushes\TintBrushSmooth\TintBrushSmooth.cs" />
+     <Compile Include="Assets\Editor\Brushes\PrefabBrushes\BasePrefabBrush.cs" />
+     <Compile Include="Assets\Editor\Menu\MenuItemOrder.cs" />
+     <Compile Include="Assets\Editor\Brushes\TintBrush\TintBrush.cs" />
+     <Compile Include="Assets\Editor\Tiles\HexagonalRuleTile\HexagonalRuleTileEditor.cs" />
+     <Compile Include="Assets\Editor\Tiles\RuleOverrideTile\AdvancedRuleOverrideTileEditor.cs" />
+     <Compile Include="Assets\Editor\Tiles\Menu\RandomTileMenu.cs" />
+     <Compile Include="Assets\Editor\Brushes\LineBrush\LineBrush.cs" />
+     <Compile Include="Assets\Editor\Brushes\TintBrushSmooth\TintTextureGeneratorEditor.cs" />
      <Compile Include="Assets\Editor\Tiles\IsometricRuleTile\IsometricRuleTileEditor.cs" />
      <Compile Include="Assets\Editor\Tiles\Menu\WeightedRandomTileMenu.cs" />
      <None Include="Assets\Editor\Unity.2D.Tilemap.Extras.Editor.asmdef" />
@@ -677,13 +677,13 @@
       <Project>{f06e1118-1e46-6f5c-5cf2-98cede317389}</Project>
       <Name>Unity.2D.Tilemap.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{25460f59-7bcf-7ef7-35f9-51f715d78ca3}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{0a13e7b2-04a5-58b8-c06b-b2fd202a1a28}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{25460f59-7bcf-7ef7-35f9-51f715d78ca3}</Project>
+      <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{4b9515fc-fdba-9970-03d7-890ab6ce0871}</Project>

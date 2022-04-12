@@ -670,13 +670,13 @@
       <Project>{1aa8b2e0-48f2-d704-15b4-117347041f5e}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{25460f59-7bcf-7ef7-35f9-51f715d78ca3}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{0a13e7b2-04a5-58b8-c06b-b2fd202a1a28}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{25460f59-7bcf-7ef7-35f9-51f715d78ca3}</Project>
+      <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

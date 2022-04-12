@@ -13,6 +13,8 @@ public class Character : MonoBehaviourPun, IPunObservable
     public float speed;
     public float v_speed_coef;
     public Text Nickname;
+    public Text Message;
+    public InputField SendingMessage;
     public Transform[] attackPoints;
     public float range = 1f;
     public LayerMask enemyLayers;
@@ -63,7 +65,6 @@ public class Character : MonoBehaviourPun, IPunObservable
 
             float sqr_speed = moveHorizontal*moveHorizontal + moveVertical*moveVertical;
 
-            animator.SetInteger("Health", HP);
             animator.SetFloat("Speed", sqr_speed);
 
             if (moveHorizontal < -0.1){
@@ -80,7 +81,6 @@ public class Character : MonoBehaviourPun, IPunObservable
             }
 
             Vector3 movement = new Vector3 (moveHorizontal, moveVertical * v_speed_coef, 0f);
-
             transform.Translate(movement * speed * Time.fixedDeltaTime);
         }
 
@@ -118,6 +118,15 @@ public class Character : MonoBehaviourPun, IPunObservable
         HP -= taken_damage;
         if (HP < 0) HP = 0;
         playerHP.fillAmount = HP / MAX_HP;
+    }
+
+    [PunRPC]
+    public void punSetMessage(string message){
+        Message.text = message;
+    }
+
+    public void setMessage(string message){
+        photonView.RPC("SetMessage", RpcTarget.AllBuffered, message);
     }
 
     public void Death(){

@@ -42,8 +42,8 @@
      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\ServiceActivationPopup\Visuals\ServiceActivationPopupVisual.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\ProjectStateManagement\ProjectStateRequest.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\ProjectStateManagement\ServiceFlagRequest.cs" />
-     <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\UserRoleManagement\IUserRoleHandler.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\Networking\HttpRequestExtensions.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\UserRoleManagement\IUserRoleHandler.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\Networking\HttpServiceConfig.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\EditorGameService\ServiceFlagEndpoint.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\AsyncOperation\IAsyncOperation.cs" />
@@ -61,8 +61,8 @@
      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\AsyncOperation\AsyncOperationAwaiter.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\EditorGameService\EditorGameServiceFlagEnabler.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\UiHelpers\IProjectEditorDrawerFactory.cs" />
-     <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\AsyncOperation\AsyncOperationStatus.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\EditorGameService\IEditorGameServiceEnabler.cs" />
+     <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\AsyncOperation\AsyncOperationStatus.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\UiHelpers\VisualElementHelper.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\BackendHelpers\JsonHelper.cs" />
      <Compile Include="Library\PackageCache\com.unity.services.core@1.0.1\Editor\Core\ServiceActivationPopup\ServiceActivationPopupWindow.cs" />
@@ -734,13 +734,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{25460f59-7bcf-7ef7-35f9-51f715d78ca3}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{0a13e7b2-04a5-58b8-c06b-b2fd202a1a28}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{25460f59-7bcf-7ef7-35f9-51f715d78ca3}</Project>
+      <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{4b9515fc-fdba-9970-03d7-890ab6ce0871}</Project>

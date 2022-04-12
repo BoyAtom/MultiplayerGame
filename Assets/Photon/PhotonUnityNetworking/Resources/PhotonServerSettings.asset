@@ -38,6 +38,8 @@ MonoBehaviour:
   - DestroyRpc
   - Set_Hit
   - GetHit
+  - setMessage
+  - punSetMessage
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

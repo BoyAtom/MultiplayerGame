@@ -26,6 +26,18 @@ TextureImporter:
   - first:
       213: -5777048578884904559
     second: Colliders_7
+  - first:
+      213: 4310399807152440183
+    second: Colliders_8
+  - first:
+      213: 3975768078710409870
+    second: Colliders_9
+  - first:
+      213: 5675765544355556042
+    second: Colliders_10
+  - first:
+      213: -4637113678207938614
+    second: Colliders_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -186,7 +198,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 1.25}
+      pivot: {x: 0, y: 1.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -2, y: 32}
@@ -326,7 +338,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0, y: 0.5}
+      pivot: {x: 0.5, y: 0.75}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -32, y: -17}
@@ -414,6 +426,118 @@ TextureImporter:
       bones: []
       spriteID: 199d365fcecc3dfa0800000000000000
       internalID: -5777048578884904559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 32}
+        - {x: -32, y: 17}
+        - {x: -32, y: 15}
+        - {x: -2, y: 0}
+        - {x: 2, y: 0}
+        - {x: 32, y: 15}
+        - {x: 32, y: 17}
+        - {x: 2, y: 32}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773cb3189cd91db30800000000000000
+      internalID: 4310399807152440183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 1, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 0}
+        - {x: 0, y: -32}
+        - {x: 2, y: -32}
+        - {x: 32, y: -17}
+        - {x: 32, y: 15}
+        - {x: 30, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a0fd8c004cc2730800000000000000
+      internalID: 3975768078710409870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -32, y: 15}
+        - {x: -32, y: -17}
+        - {x: -2, y: -32}
+        - {x: 0, y: -32}
+        - {x: 0, y: 0}
+        - {x: -30, y: 15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: acae6bbe0be54ce40800000000000000
+      internalID: 5675765544355556042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Colliders_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 383
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 0}
+        - {x: -32, y: -15}
+        - {x: -32, y: -17}
+        - {x: -2, y: -32}
+        - {x: 2, y: -32}
+        - {x: 32, y: -17}
+        - {x: 32, y: -15}
+        - {x: 2, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf8f4b9da9a5afb0800000000000000
+      internalID: -4637113678207938614
       vertices: []
       indices: 
       edges: []
