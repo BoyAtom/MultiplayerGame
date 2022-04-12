@@ -89,6 +89,7 @@ public class Character : MonoBehaviourPun, IPunObservable
         }
         attack_cooldown = ChangeCooldown(attack_cooldown, -1);
         UpdateHPBar();
+        UpdateChatBox();
         if (HP <= 0){
             Death();
         }
@@ -126,15 +127,20 @@ public class Character : MonoBehaviourPun, IPunObservable
     }
 
     public void setMessage(string message){
-        photonView.RPC("SetMessage", RpcTarget.AllBuffered, message);
+        photonView.RPC("punSetMessage", RpcTarget.AllBuffered, message);
     }
 
     public void Death(){
         animator.SetTrigger("Death");
         Destroy(this);
     }
+
     void UpdateHPBar(){
         playerHP.fillAmount = (float) HP / MAX_HP;
+    }
+
+    void UpdateChatBox(){
+        setMessage(""+Random.Range(0, 10000));
     }
 
     int ChangeCooldown(int cooldown, int num){
